@@ -9,6 +9,8 @@ const User = require("./models/users");
 const app = express();
 app.use(express.json());
 
+//GraphQL query
+
 app.use(
   "/graphql",
   graphqlHTTP({
